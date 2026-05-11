@@ -1,16 +1,24 @@
-# React + Vite
+🚀 CollabTask | Real-Time Project Management Suite
+CollabTask is a robust project management tool designed for teams to collaborate in real-time. Built with the MERN stack, it focuses on seamless task tracking, team communication, and live updates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Real-Time Collaboration: Instant updates on task changes and team activities.
 
-Currently, two official plugins are available:
+Dynamic Task Management: Create, update, and organize tasks with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Team Workspaces: Dedicated spaces for different teams and projects.
 
-## React Compiler
+User Authentication: Secure login and personalized dashboards.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Design: Optimized for both desktop and mobile views.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React.js, Vite, Tailwind CSS, Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend: Node.js, Express.js
+
+Database: MongoDB Atlas
+
+Real-time: Socket.io (for live updates)
+
+Tools: Git, GitHub, Postman, Docker
