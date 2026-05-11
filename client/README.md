@@ -1,7 +1,3 @@
-Chunki aapka Client folder specifically aapke project ka Frontend handle kar raha hai, toh iska README thoda technical hona chahiye jo UI/UX aur state management par focus kare.
-
-Aap is content ko client/README.md file mein paste kar sakte hain:
-
 💻 CollabTask - Frontend (Client Side)
 This directory contains the frontend code for the CollabTask suite. It is built using React with Vite for a fast development experience and optimized production builds.
 
