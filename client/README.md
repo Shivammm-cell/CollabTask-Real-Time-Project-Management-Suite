@@ -1,24 +1,35 @@
-🚀 CollabTask | Real-Time Project Management Suite
-CollabTask is a robust project management tool designed for teams to collaborate in real-time. Built with the MERN stack, it focuses on seamless task tracking, team communication, and live updates.
+Chunki aapka Client folder specifically aapke project ka Frontend handle kar raha hai, toh iska README thoda technical hona chahiye jo UI/UX aur state management par focus kare.
 
-✨ Features
-Real-Time Collaboration: Instant updates on task changes and team activities.
+Aap is content ko client/README.md file mein paste kar sakte hain:
 
-Dynamic Task Management: Create, update, and organize tasks with ease.
+💻 CollabTask - Frontend (Client Side)
+This directory contains the frontend code for the CollabTask suite. It is built using React with Vite for a fast development experience and optimized production builds.
 
-Team Workspaces: Dedicated spaces for different teams and projects.
+🛠️ Tech Stack & Libraries
+Framework: React.js (Vite)
 
-User Authentication: Secure login and personalized dashboards.
+State Management: Redux Toolkit / Context API
 
-Responsive Design: Optimized for both desktop and mobile views.
+Styling: Tailwind CSS / Bootstrap
 
-🛠️ Tech Stack
-Frontend: React.js, Vite, Tailwind CSS, Redux Toolkit
+Routing: React Router DOM
 
-Backend: Node.js, Express.js
+API Fetching: Axios
 
-Database: MongoDB Atlas
+Real-time Communication: Socket.io-client
 
-Real-time: Socket.io (for live updates)
+📂 Folder Structure
+Plaintext
+client/
+├── public/          # Static assets (images, icons)
+├── src/
+│   ├── assets/      # Global styles and media
+│   ├── components/  # Reusable UI components (Buttons, Modals, Navbar)
+│   ├── pages/       # Full page components (Dashboard, Login, Tasks)
+│   ├── redux/       # Global state management slices (Optional)
+│   ├── context/     # Context providers
+│   ├── hooks/       # Custom React hooks
+│   └── services/    # API calls and Socket.io setup
+├── .env             # Environment variables (VITE_BASE_URL)
+└── package.json
 
-Tools: Git, GitHub, Postman, Docker
